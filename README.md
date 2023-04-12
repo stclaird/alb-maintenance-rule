@@ -1,4 +1,4 @@
-# Tools
+This python tool will add a maintainence message to your AWS ALB.  This is useful if you need to prevent traffic arriving to the normal targets of a LB listener. It has to be re-number 
 
 ## Add Maintainence Rule
 ### Setup
@@ -18,9 +18,7 @@ or, if you want to safeguard against running on the wrong account with an ALB of
 
 `python main.py --albs <SOME ALB> --account <SOME AWS ACCOUNT NUMBER>`
 
-
-### Make a note of the outputed delete commands
-The look something like this:
+### The look something like this:
 
 ```
 RuleArn: arn:aws:elasticloadbalancing:eu-west-1:917262733044:listener-rule/app/testingALB/5245a20faa4069e3/bc42bccdce04b6b2/472b929739749589

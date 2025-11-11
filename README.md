@@ -1,4 +1,4 @@
-This python tool will add a maintainence message to your AWS ALB.  This is useful if you need to prevent traffic arriving to the normal targets of a LB listener. It has to be re-number 
+This python tool will add a maintainence message to your AWS ALB.  This is useful if you need to prevent traffic arriving to the normal targets of a LB listener. It has to be re-numbered.
 
 ## Add Maintainence Rule
 ### Setup
